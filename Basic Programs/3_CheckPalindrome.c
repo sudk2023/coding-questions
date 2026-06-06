@@ -1,7 +1,10 @@
 #include <stdio.h>
 
 int main () {
-    int number, lastDigit, originalNumber, reverseNumber = 0;
+    int number = 0;
+    int lastDigit = 0;
+    int originalNumber = 0;
+    int reverseNumber = 0;
 
     printf("Enter a positive integer\n");
     scanf("%d", &number);
@@ -10,7 +13,6 @@ int main () {
     while (number != 0) {
         lastDigit = number % 10;
         reverseNumber = reverseNumber*10 + lastDigit;
-
         number = number/10;
     }
 
