@@ -1,3 +1,10 @@
+/*
+-       Check if the Number is Armstrong
+-       Author                  :               Krishna Teja G S
+-       Repository              :               github.com/packetprep/coding-questions
+-       Website                 :               packetprep.com
+*/
+
 #include <stdio.h>
 
 int main () {
