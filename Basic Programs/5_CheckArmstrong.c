@@ -16,11 +16,10 @@ int main () {
     int power = 0;
 
     printf("Enter a positive integer: ");
-
     scanf("%d", &number);
 
     originalNumber = number;
-    
+
     while (number != 0) {
         number = number/10;
         power++;
@@ -30,13 +29,14 @@ int main () {
 
     while (number != 0) {
         lastDigit = number % 10;
+
         sum = sum + pow(lastDigit, power);
 
         number = number/10;
     }
-    if (originalNumber == sum) {
+
+    if (originalNumber == sum)
         printf("The given number is a Armstrong\n");
-    } else {
-        printf("The given number is not a Armstrong \n");
-    }
+    else
+        printf("The given number is not a Armstrong\n");
 }
