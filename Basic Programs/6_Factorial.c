@@ -12,13 +12,8 @@ int findFactorial(int);
 int main () {
     int number = 0;
     int factorial = 0;
-
-    printf("Enter a positive integer: ");
-    scanf("%d", &number);
-
     factorial = findFactorial(number);
-
-    printf("The Factorial of the number %d is : %d \n", number, factorial);
+    printf("%d", factorial);
 }
 
 int findFactorial(int n) {
