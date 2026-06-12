@@ -36,7 +36,7 @@ int findFactorial(int n) {
     int i = 0;
     int factorial = 1;
 
-    for (i = 1; i<= n ; i++) {
+    for (i = 1; i<= n; i++) {
         factorial = factorial * i;
     }
 
